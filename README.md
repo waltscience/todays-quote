@@ -2,7 +2,7 @@
 Python script and data to generate daily motivational quotes and images.
 
 ## How to automate daily motivation with a little Python
-### Author: Chris Walter - [Daily Motivational !uote Article](https://waltscienceblog.github.io/morningquote/)
+### Author: Chris Walter - [Daily Motivational Quote Article](https://waltscienceblog.github.io/morningquote/)
 
 Data sources: Quote database, curated by Akhil Tak, retrieved on Feb 6, 2021 from https://github.com/akhiltak/inspirational-quotes/blob/master/Quotes.csv
 
