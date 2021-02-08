@@ -24,7 +24,7 @@ s = soup.find_all('img')[0]
 url = "https://www.naturepicoftheday.com/" + (s['src'])
 
 # create markdown file that will be rendered as webpage in Jekyll
-f = open("/Users/chriswalter/Documents/GitHub/waltscienceblog.github.io/quote.md","w+")
+f = open("~FILEPATH/quote.md","w+")
 f.write('Quote of the day\r')
 f.write("\r")
 f.write('***\r')
