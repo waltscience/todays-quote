@@ -1,7 +1,7 @@
 # load quote database, select random quote, remove quote and update database
 import pandas
 import random
-df = pandas.read_csv('/Users/chriswalter/Dropbox/Chris/Personal/Morning_quote/Quote_db_good_genres_w_daily_removal.csv')
+df = pandas.read_csv('~FILEPATH/Quote_db_good_genres_w_daily_removal.csv')
 samp = random.randint(0, len(df))
 quote = df.iloc[samp]["QUOTE"]
 name = df.iloc[samp]["AUTHOR"]
